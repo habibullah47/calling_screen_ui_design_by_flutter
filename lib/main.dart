@@ -211,7 +211,6 @@ class MyStackWidget extends StatelessWidget {
                               padding: EdgeInsets.only(bottom: 10),
                               width: 100,
                               decoration: BoxDecoration(
-                                // backgroundBlendMode: BlendMode.color,
                                 gradient: LinearGradient(
                                   begin: Alignment.topRight,
                                   end: Alignment.bottomLeft,
@@ -238,6 +237,7 @@ class MyStackWidget extends StatelessWidget {
                   ],
                 ),
               ),
+
             ],
           ),
         ),
